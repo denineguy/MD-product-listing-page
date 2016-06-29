@@ -5,18 +5,24 @@
     <title>Product Listing Page</title>
     <link rel="stylesheet" href="product_page.css" type="text/css">
      <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+     <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700italic' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div class="container">
       <div class="top-menu">
-        <label class="search">
+        <!-- <label class="search">
           <input type="text" class="input" placeholder="Search"required />
-        </label>
+        </label> -->
         <a href="#" class="logo">MYSTORE</a>
         <ul class="menu">
           <a href="#"><li class="menu-list">Sign Up</li></a>
           <a href="#"><li class="menu-list">Log In</li></a>
-          <a href="#"><li class="menu-list">Cart</li></a>
+          <a href="#" class="cart-link">
+            <li class="menu-list">
+            <img src="images/shopping-bag-24.png" alt="" class="cart">
+              Cart
+            </li>
+          </a>
         </ul>
       </div>  
       <nav>
@@ -30,76 +36,412 @@
       </nav>
       <section class="product-section">
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/blue-crush.jpg" alt="blue crush shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand" class="brand">Shoe Brand</p>
+          <p class="info" class="info">Blue Suede Heels</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/eggplant-a-kiss.jpg" alt="eggplant colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Purple Suede Heels</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/go-get-emeralds.jpg" alt="emerald colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Emerald Green Flats</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/mirror-mirror.jpg" alt="silver colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Silver Leather Flats</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/ocean-drive.jpg" alt="ocean colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Sky Blue Suede Heels</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/pumpkin-it-up.jpg" alt="orange colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Pumpkin Suede Heels</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/oh-sandy.jpg" alt="sandy colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Tan Patent Leather Heels</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/scarlet-fever.jpg" alt="red colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Scarlet Patent Leather Flats</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/the-jig-is-up.jpg" alt="greeen colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Green Suede Heels</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/wishful-pinking.jpg" alt="pink colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Fuschia Suede Shoe</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/ink-side-out.jpg" alt="black colored shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Black Patent Leather Heels</p>
+          <p class="price">$149</p>
         </div>
         <div class="products">
-          <img src="" alt="">
-          <p>Rachel Rachel Roy</p>
-          <p>Mixed Stripe Sheath Dress</p>
-          <p>$149</p>
+          <img src="images/yellow_shoe.png" alt="yellow shoe">
+          <div class="pop-up">
+            <p>Size:</p>
+            <form action="">
+              <ul>
+                <li class="size">
+                  <label for="small">
+                  </label>
+                  <input id="small" type="button" value="S">
+                </li>
+                <li class="size">
+                  <label for="medium">
+                  </label>
+                  <input id="medium" type="button" value="M">
+                </li>
+                <li class="size">
+                  <label for="large">
+                  </label>
+                  <input id="large" type="button" value="L">
+                </li>
+                <li class="size">
+                  <label for="xlarge">
+                  </label>
+                  <input id="xlarge" type="button" value="XL">
+                </li>
+              </ul>
+              <input type="submit" value="Add to Cart">
+            </form>
+          </div>
+          <p class="brand">Shoe Brand</p>
+          <p class="info">Yellow Suede Heels</p>
+          <p class="price">$149</p>
         </div>
       </section>   
     </div>
