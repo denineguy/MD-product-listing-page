@@ -213,7 +213,7 @@ input[type=button]:hover {
 }
 
 
-.add-to-cart:hover {
+.add-cart-button:hover {
   width: 120px;
   background-color: #F5B111;
   color: #FFFFFF;
