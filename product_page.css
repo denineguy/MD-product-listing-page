@@ -93,7 +93,7 @@
 }
 
 nav {
-  border-bottom: 1px inset #E1E1E1;  
+  border-bottom: 1px inset #E1E1E1;
   clear: both;
   margin: 0;
   padding: 16px 0 0 0;
@@ -234,7 +234,6 @@ input[type=button]:hover {
   color: #ffffff;
 }
 
-
 .add-cart-button:hover {
   width: 120px;
   background-color: #F5B111;
@@ -359,6 +358,7 @@ button:hover {
 
 .unit-price {
   text-align: right;
+  padding-top: 0;
 }
 
 .select-style {
@@ -368,7 +368,7 @@ button:hover {
     border-radius: 3px;
     overflow: hidden;
     background: #fafafa url("img/icon-select.png") no-repeat 90% 50%;
-    
+
 }
 
 .select-style select {
@@ -442,7 +442,7 @@ label {
   transform: translateY(-26px);
   z-index: 1;
 }
-    
+
 .input {
   background-color: #FFFFFF;
   border: 2px solid #DEDAD9;
@@ -470,7 +470,7 @@ label {
   width: 100%;
   color: #4F4F4F;
 }
-      
+
 .input:focus + .label-text {
   font-weight: 400;
   letter-spacing: 1px;
@@ -569,8 +569,9 @@ label {
 
 .footer {
   clear: both;
+  overflow: hidden;
   text-align: center;
-  padding-top: 50px
+  padding-top: 50px;
 }
 
 .continue-button {
@@ -579,4 +580,126 @@ label {
   margin: 0 20px;
   padding: 15px;
   font-size: 13px;
+}
+
+.clear-cart {
+  background: black;
+  border: 1px outset black;
+  margin: 0 20px;
+  padding: 15px;
+  font-size: 13px;
+}
+
+/*css functionality*/
+.hide-section {
+  display: none;
+}
+
+.show-section {
+  display: block;
+}
+
+input[type=radio]{
+  visibility: hidden
+}
+
+label {
+  display: block;
+}
+
+label.checkbox {
+  webkit-appearance: none;
+  border: 2px inset #030000;
+  width: 30px;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #9B9B9B;
+  height: 13px;
+  font-size: 11px;
+  font-weight: 400;
+  color: black;
+  margin: 30px 0 10px 0;
+  display: inline-block;
+}
+
+label.checkbox:hover {
+  background-color: #9B9B9B;
+}
+
+label.checkbox:hover span {
+  color: #ffffff;
+}
+
+label.checkbox > span {
+  position: relative;
+  color: black;
+  bottom: 24px;
+  right: 5px;
+  display: block;
+  width: 40px;
+  height: 23px;
+  line-height: 23px;
+}
+
+label > input[type=radio]:checked + span {
+  background-color: #9B9B9B;
+  color: #ffffff;
+}
+
+.hide-element {
+  display: none;
+}
+.units {
+  text-align: center;
+}
+
+.cart-count {
+  width: 25px;
+  height: 20px;
+  text-align: center;
+}
+
+.add,
+.subtract {
+  padding: 5px 10px;
+  width: 25px;
+}
+
+.invalid-code,
+.one-code {
+  display: block;
+  border: none !important;
+  font-size: 12px;
+  color: red !important;
+  width: 250px;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+
+.empty-cart {
+  color: red;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: hidden;
+  padding-top: 10px;
+  text-align: right;
+  width: 90%;
+}
+
+.original-price {
+  color: red;
+  text-decoration: line-through;
+  height: 20px;
+  width: 100px;
+  text-align: right;
+  visibility: visible;
+  padding-bottom: 0;
+}
+
+.hide-node {
+  visibility: hidden;
+  height: 0;
+  width: 0;
 }
